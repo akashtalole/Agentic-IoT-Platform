@@ -1,0 +1,43 @@
+# Django core
+Django==5.1.4
+djangorestframework==3.15.2
+django-cors-headers==4.4.0
+django-filter==24.3
+drf-spectacular==0.27.2
+
+# Authentication
+djangorestframework-simplejwt==5.3.1
+
+# Database
+psycopg2-binary==2.9.10
+
+# Async / WebSockets
+channels==4.1.0
+channels-redis==4.2.0
+daphne==4.1.2
+
+# Celery / Task Queue
+celery==5.4.0
+django-celery-beat==2.7.0
+redis==5.2.0
+
+# Claude AI (Anthropic SDK)
+anthropic==0.40.0
+
+# MQTT
+paho-mqtt==2.1.0
+
+# Environment
+python-decouple==3.8
+django-environ==0.11.2
+
+# Utilities
+Pillow==10.4.0
+python-dateutil==2.9.0
+pytz==2024.2
+
+# Development / Testing
+pytest==8.3.4
+pytest-django==4.9.0
+pytest-asyncio==0.24.0
+factory-boy==3.3.1
